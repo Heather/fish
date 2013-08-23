@@ -1,3 +1,3 @@
 function Esummon
-    command emacs --daemon
+    emacs --daemon
 end
