@@ -6,7 +6,7 @@ function _is_git_dirty
   echo (command git status -s --ignore-submodules=dirty ^/dev/null)
 end
 
-function fish_prompt
+function fish_prompt --description "Lambda prompt"
   set -l blue (set_color blue)
   set -l green (set_color green)
   set -l normal (set_color normal)
