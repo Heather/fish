@@ -1,4 +1,4 @@
-set -U EDITOR emacsclient
+set EDITOR emacsclient
 
 # Fish git prompt
 set __fish_git_prompt_showdirtystate 'yes'
