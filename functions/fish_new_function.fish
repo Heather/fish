@@ -1,5 +1,5 @@
 function fish_new_function
     cd ~/.config/fish/
-    cp functions/k.fish functions/$argv.fish
-    command kwrite functions/$argv.fish
+    cp functions/g.fish functions/$argv.fish
+    gedit functions/$argv.fish
 end
