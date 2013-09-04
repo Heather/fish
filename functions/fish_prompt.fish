@@ -11,7 +11,7 @@ function fish_prompt --description "Lambda prompt"
   set -l green (set_color green)
   set -l normal (set_color normal)
 
-  set -l arrow "λ"
+  set -l arrow ">"
   set -l cwd $blue(basename (prompt_pwd))
 
   if [ (_git_branch_name) ]
