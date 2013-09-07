@@ -1,3 +1,4 @@
+set fish_greeting ""
 set EDITOR emacsclient
 
 # Fish git prompt
