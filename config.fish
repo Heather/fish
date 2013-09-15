@@ -1,5 +1,5 @@
 set fish_greeting ""
-set EDITOR emacsclient
+set EDITOR nano # emacsclient
 
 # Fish git prompt
 set __fish_git_prompt_showdirtystate 'yes'
